@@ -1,0 +1,2 @@
+cd "$(dirname "$0")/kev"
+HF_HUB_OFFLINE=1 KEV_DTYPE=bf16 uv run --extra serve python -m kev.serve --run /home/sagemaker-user/.cache/huggingface/hub/models--jaredpalmer--kev-4b/snapshots/6cfce5c2fa4b4bd64026336ab649c5ca78857d52 --port 8008
