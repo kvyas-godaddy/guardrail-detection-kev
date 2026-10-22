@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import gradio as gr
 
-from kev_guardrail import CATEGORIES, CONFIDENCE_THRESHOLD, GuardrailClassifier
+from guardrail_detection_kev import CATEGORIES, CONFIDENCE_THRESHOLD, GuardrailClassifier
 
 # ---------------------------------------------------------------------------
 # Shared classifier instance (initialised once on first classify call)

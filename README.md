@@ -1,5 +1,7 @@
 # Guardrail Detection
 
+[![Demo](https://cdn.loom.com/sessions/thumbnails/4871e72f216d4b3e98d55a3431e6ad68-with-play.gif)](https://www.loom.com/share/4871e72f216d4b3e98d55a3431e6ad68)
+
 Content safety classifier built on [kev-4b](https://huggingface.co/jaredpalmer/kev-4b). Classifies text into safety categories by talking to a running `kev.serve` instance over HTTP.
 
 ## Categories

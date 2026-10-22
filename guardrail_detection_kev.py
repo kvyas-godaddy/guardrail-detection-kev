@@ -28,7 +28,7 @@ import pandas as pd
 import requests
 
 DEFAULT_URL = "http://127.0.0.1:8008"
-CONFIDENCE_THRESHOLD = 0.5  # below this the model is considered weak; category is overridden to "none-weak"
+CONFIDENCE_THRESHOLD = 0.4  # below this the model is considered weak; category is overridden to "none-weak"
 
 # ---------------------------------------------------------------------------
 # Category definitions
